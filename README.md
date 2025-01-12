@@ -7,7 +7,10 @@ Dashboard jest przeznaczony dla analityków danych, ekonomistów, badaczy polity
 
 
 ## Prawa autorskie
-...
+**Autorzy:** Anna Sołtys, Wiktoria Wróbel, Elżbieta Mirończuk
+
+**Warunki licencyjne do oprogramowania wytworzonego przez grupę:** Licencja otwarta Eurostatu; użytkownicy są zobowiązani do prawidłowego cytowania danych.
+
 
 ## Specyfikacja wymagań
 
@@ -16,10 +19,11 @@ Dashboard jest przeznaczony dla analityków danych, ekonomistów, badaczy polity
 ## Architektura systemu/oprogramowania
 Dashboard opiera się na architekturze klient-serwer z trzema głównymi komponentami: frontendem (Shiny, Leaflet, DataTables), backendem (Shiny Server) i zewnętrznym API Eurostat. Frontend umożliwia interakcję użytkownika z danymi (mapa, tabela, wskaźniki). Backend przetwarza dane i komunikuje się z API. Dane są pobierane z Eurostat w czasie rzeczywistym lub z lokalnego cache. Dashboard obsługuje filtry (np. rok), wyświetla dane na mapie oraz w tabeli z wyszukiwaniem i sortowaniem. Architektura zapewnia responsywność i możliwość skalowania.
 
-Wymagania systemowe: System operacyjny (Windows/Linux/Mac).
-Wymagania oprogramowania: Wersja języka programowania R 4.2.3 (lub nowsza, wtedy z dospasowanymi wersjami bibliotek).
+**Wymagania systemowe:** System operacyjny (Windows/Linux/Mac).
 
-Biblioteki użyte w aplikacji:
+**Wymagania oprogramowania:** Wersja języka programowania R 4.2.3 (lub nowsza, wtedy z dospasowanymi wersjami bibliotek).
+
+**Biblioteki użyte w aplikacji:**
 
 ![Zrzut ekranu 2025-01-01 135946](https://github.com/user-attachments/assets/eb055492-4f5e-4a95-a8c4-2cfbea97180c)
 ![Zrzut ekranu 2025-01-01 140134](https://github.com/user-attachments/assets/23ae87dc-de59-44bf-9c51-93f482b0a025)
