@@ -5,6 +5,12 @@ Celem dashboardu jest dostarczenie intuicyjnego narzędzia do analizy danych dem
 
 Dashboard jest przeznaczony dla analityków danych, ekonomistów, badaczy polityki publicznej oraz decydentów, którzy potrzebują szybkiego dostępu do wskaźników demograficznych. Użytkownicy będą mogli w prosty sposób zidentyfikować kluczowe trendy oraz porównać poszczególne kraje, a także analizować zmiany populacji w czasie.
 
+**Przykłady użycia:**
+o	Generowanie wykresu populacji dla krajów UE w różnych latach.
+o	Generowanie wykresu piramidy płci w wybranych krajach i latach.
+o	Wyświetlanie wybranych wskaźników dla wybranych krajów w wybranych latach.
+
+
 
 ## Prawa autorskie
 **Autorzy:** Anna Sołtys, Wiktoria Wróbel, Elżbieta Mirończuk
@@ -64,7 +70,7 @@ Wynik: Aplikacja wyświetla definicje.
 **Sprawozdanie z wykonania scenariuszy testów**
 
 ## Instrukcja obsługi
-•	Uruchamianie programu:
+**Uruchamianie programu:**
 o	Uruchomienie RStudio.
 •	Nawigacja po dashboardzie:
 o	Menu boczne pozwala przełączać się między sekcjami: 'Population' (mapa populacji) i 'Population by country' (tabela danych), ‘Country comparison’ (wykresy liniowe, słupkowe oraz wskaźniki) oraz ‘Info’. Można tu także wybrać rok, który aktualizuje dane na mapie, w tabeli i wskaźnikach.
