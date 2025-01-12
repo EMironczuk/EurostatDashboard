@@ -7,11 +7,9 @@ Dashboard jest przeznaczony dla analityków danych, ekonomistów, badaczy polity
 
 **Przykłady użycia:**
 
-o	Generowanie wykresu populacji dla krajów UE w różnych latach.
-
-o	Generowanie wykresu piramidy płci w wybranych krajach i latach.
-
-o	Wyświetlanie wybranych wskaźników dla zadanych krajów w wybranych latach.
+* Generowanie wykresu populacji dla krajów UE w różnych latach.
+* Generowanie wykresu piramidy płci w wybranych krajach i latach.
+* Wyświetlanie wybranych wskaźników dla zadanych krajów w wybranych latach.
 
 ## Prawa autorskie
 **Autorzy:** Anna Sołtys, Wiktoria Wróbel, Elżbieta Mirończuk
