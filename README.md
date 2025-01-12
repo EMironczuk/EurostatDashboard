@@ -87,10 +87,13 @@ Opis: Użytkownik sprawdza, czy aplikacja wyświetla definicje wybranych wskaźn
 1.	Rozwinięcie panelu z nazwą wskaźnika.
 2.	Sprawdzenie czy definicja pasuje do wskaźnika.
 
-
-> Wynik: Aplikacja wyświetla definicje.
+Wynik: Aplikacja wyświetla definicje.
 
 **Sprawozdanie z wykonania scenariuszy testów**
 ![x2](https://github.com/user-attachments/assets/a6a71085-a3a1-4582-be9d-248b081f5765)
 
+## Uwagi
+Więcej na temat API eurostatu oraz wykorzystania go za pomocą bibliotek R można znaleźć na:
+* https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access/api-getting-started/api
+* https://ropengov.github.io/eurostat/articles/eurostat_tutorial.html
 
