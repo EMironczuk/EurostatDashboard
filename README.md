@@ -81,5 +81,6 @@ Opis: Użytkownik sprawdza, czy aplikacja wyświetla definicje wybranych wskaźn
 Wynik: Aplikacja wyświetla definicje.
 
 **Sprawozdanie z wykonania scenariuszy testów**
+![x2](https://github.com/user-attachments/assets/a6a71085-a3a1-4582-be9d-248b081f5765)
 
 
