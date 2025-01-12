@@ -13,8 +13,6 @@ o	Generowanie wykresu piramidy płci w wybranych krajach i latach.
 
 o	Wyświetlanie wybranych wskaźników dla zadanych krajów w wybranych latach.
 
-
-
 ## Prawa autorskie
 **Autorzy:** Anna Sołtys, Wiktoria Wróbel, Elżbieta Mirończuk
 
@@ -84,19 +82,4 @@ Wynik: Aplikacja wyświetla definicje.
 
 **Sprawozdanie z wykonania scenariuszy testów**
 
-## Instrukcja obsługi
-**Uruchamianie programu:**
-o	Uruchomienie RStudio.
-•	Nawigacja po dashboardzie:
-o	Menu boczne pozwala przełączać się między sekcjami: 'Population' (mapa populacji) i 'Population by country' (tabela danych), ‘Country comparison’ (wykresy liniowe, słupkowe oraz wskaźniki) oraz ‘Info’. Można tu także wybrać rok, który aktualizuje dane na mapie, w tabeli i wskaźnikach.
-o	W zakładce ‘Population’ mapa interaktywna wyświetla dane populacji w podziale na kraje z użyciem kolorowego gradientu. Kliknięcie na kraj pokazuje szczegóły w pop up’ie.
-	Tabela danych zawiera nazwę kraju i populację, z możliwością wyszukiwania, sortowania i zmiany liczby wyświetlanych wierszy.
-	Panel wskaźników pod mapą prezentuje kluczowe dane, takie jak średnia długość życia, wskaźnik dzietności i śmiertelność niemowląt. Kliknięcie na wskaźniki pokazuje dodatkowe szczegóły.
-o	Zakładka ‘Population by country’ wyświetla wykresy oraz wskaźniki dla jednego kraju w danym roku.
-o	Zakładka ‘Country comparison’ wyświetla wykresy oraz wskaźniki dla dwóch wybranych krajów w danym roku.
-o	Zakładka ‘Info’ wyświetla definicje wskaźników.
-•	Przykłady użycia:
-o	Generowanie wykresu populacji dla krajów UE w różnych latach.
-o	Generowanie wykresu piramidy płci w wybranych krajach i latach.
-o	Wyświetlanie wybranych wskaźników dla wybranych krajów w wybranych latach.
 
