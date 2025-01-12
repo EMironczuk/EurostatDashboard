@@ -14,7 +14,7 @@ Dashboard jest przeznaczony dla analityków danych, ekonomistów, badaczy polity
 
 ## Specyfikacja wymagań
 
-![Zrzut ekranu 2025-01-01 134931](https://github.com/user-attachments/assets/0155a994-7470-4404-ae2c-313093cb2b46)
+![x1](https://github.com/user-attachments/assets/85992eab-adaf-4d50-bdee-8d3c1d7f2ec4)
 
 ## Architektura systemu/oprogramowania
 Dashboard opiera się na architekturze klient-serwer z trzema głównymi komponentami: frontendem (Shiny, Leaflet, DataTables), backendem (Shiny Server) i zewnętrznym API Eurostat. Frontend umożliwia interakcję użytkownika z danymi (mapa, tabela, wskaźniki). Backend przetwarza dane i komunikuje się z API. Dane są pobierane z Eurostat w czasie rzeczywistym lub z lokalnego cache. Dashboard obsługuje filtry (np. rok), wyświetla dane na mapie oraz w tabeli z wyszukiwaniem i sortowaniem. Architektura zapewnia responsywność i możliwość skalowania.
@@ -31,3 +31,51 @@ Dashboard opiera się na architekturze klient-serwer z trzema głównymi kompone
 
 
 ## Testy
+**Scenariusze testów:**
+a)	Sprawdzenie funkcjonalności zakładki „Population”
+Opis: Użytkownik sprawdza, czy aplikacja wyświetla dane populacji, wskaźników, kod kraju oraz sprawdza funkcjonalność mapy.
+1.	Wybranie dowolnego roku w zakładce „Year”.
+2.	Sprawdzenie czy aplikacja pokazuje wartości dla wyświetlanych wskaźników.
+3.	Sprawdzenie czy aplikacja wyświetla kod kraju po najechaniu na niego kursorem myszy.
+4.	Sprawdzenie czy aplikacja wyświetla liczbę populacji dla wybranego kraju po użyciu lewego przycisku myszy.
+5.	Sprawdzenie czy wyszukiwarka nad listą krajów działa poprawnie.
+6.	Zaznaczenie dowolnej liczby krajów z listy w celu sprawdzenia czy granice zaznaczonych państw zostaną zaznaczone na czerwono.
+Wynik: Aplikacja wyświetla wartości dla populacji i kody kraju oraz wartości wskaźników w danym roku. Wyszukiwarka działa poprawnie. Wybrane państwa z listy są podświetlone na czerwono na mapie.
+b)	Sprawdzenie funkcjonalności zakładki „Population by country”
+Opis: Użytkownik sprawdza, czy aplikacja wyświetla dane dla wybranego kraju w wybranym roku.
+1.	Wybranie dowolnego kraju w zakładce „Country” oraz roku w zakładce „Year”.
+2.	Sprawdzenie czy aplikacja wyświetla wykresy liniowe dla populacji oraz wartość środków przeznaczanych na wsparcie socjalne.
+3.	Sprawdzenie czy aplikacja wyświetla wykres piramidy wieku.
+4.	Sprawdzenie czy aplikacja wyświetla wartości wskaźników.
+Wynik: Aplikacja wyświetla wykresy oraz wartości wskaźników dla wybranego kraju w wybranym roku.
+c)	Sprawdzenie funkcjonalności zakładki „Country comparison”
+Opis: Użytkownik sprawdza czy aplikacja wyświetla dane dla dwóch wybranych krajów Unii Europejskiej w wybranym roku.
+1.	Wybranie dwóch różnych krajów w zakładce „Country 1”, „Country 2” oraz roku w zakładce „Year”.
+2.	Sprawdzenie czy aplikacja wyświetla wykresy liniowe dla populacji oraz wartość środków przeznaczanych na wsparcie socjalne.
+3.	Sprawdzenie czy aplikacja wyświetla wykres piramidy wieku.
+4.	Sprawdzenie czy aplikacja wyświetla wartości wskaźników.
+Wynik: Aplikacja wyświetla wykresy oraz wartości wskaźników dla obu wybranych krajów w wybranym roku.
+d)	Sprawdzenie funkcjonalności zakładki „Info”
+Opis: Użytkownik sprawdza, czy aplikacja wyświetla definicje wybranych wskaźników.
+1.	Rozwinięcie panelu z nazwą wskaźnika.
+2.	Sprawdzenie czy definicja pasuje do wskaźnika.
+Wynik: Aplikacja wyświetla definicje.
+
+**Sprawozdanie z wykonania scenariuszy testów**
+
+## Instrukcja obsługi
+•	Uruchamianie programu:
+o	Uruchomienie RStudio.
+•	Nawigacja po dashboardzie:
+o	Menu boczne pozwala przełączać się między sekcjami: 'Population' (mapa populacji) i 'Population by country' (tabela danych), ‘Country comparison’ (wykresy liniowe, słupkowe oraz wskaźniki) oraz ‘Info’. Można tu także wybrać rok, który aktualizuje dane na mapie, w tabeli i wskaźnikach.
+o	W zakładce ‘Population’ mapa interaktywna wyświetla dane populacji w podziale na kraje z użyciem kolorowego gradientu. Kliknięcie na kraj pokazuje szczegóły w pop up’ie.
+	Tabela danych zawiera nazwę kraju i populację, z możliwością wyszukiwania, sortowania i zmiany liczby wyświetlanych wierszy.
+	Panel wskaźników pod mapą prezentuje kluczowe dane, takie jak średnia długość życia, wskaźnik dzietności i śmiertelność niemowląt. Kliknięcie na wskaźniki pokazuje dodatkowe szczegóły.
+o	Zakładka ‘Population by country’ wyświetla wykresy oraz wskaźniki dla jednego kraju w danym roku.
+o	Zakładka ‘Country comparison’ wyświetla wykresy oraz wskaźniki dla dwóch wybranych krajów w danym roku.
+o	Zakładka ‘Info’ wyświetla definicje wskaźników.
+•	Przykłady użycia:
+o	Generowanie wykresu populacji dla krajów UE w różnych latach.
+o	Generowanie wykresu piramidy płci w wybranych krajach i latach.
+o	Wyświetlanie wybranych wskaźników dla wybranych krajów w wybranych latach.
+
