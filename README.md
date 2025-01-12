@@ -6,6 +6,7 @@ Celem dashboardu jest dostarczenie intuicyjnego narzędzia do analizy danych dem
 Dashboard jest przeznaczony dla analityków danych, ekonomistów, badaczy polityki publicznej oraz decydentów, którzy potrzebują szybkiego dostępu do wskaźników demograficznych. Użytkownicy będą mogli w prosty sposób zidentyfikować kluczowe trendy oraz porównać poszczególne kraje, a także analizować zmiany populacji w czasie.
 
 **Przykłady użycia:**
+
 o	Generowanie wykresu populacji dla krajów UE w różnych latach.
 
 o	Generowanie wykresu piramidy płci w wybranych krajach i latach.
@@ -26,6 +27,18 @@ o	Wyświetlanie wybranych wskaźników dla zadanych krajów w wybranych latach.
 
 ## Architektura systemu/oprogramowania
 Dashboard opiera się na architekturze klient-serwer z trzema głównymi komponentami: frontendem (Shiny, Leaflet, DataTables), backendem (Shiny Server) i zewnętrznym API Eurostat. Frontend umożliwia interakcję użytkownika z danymi (mapa, tabela, wskaźniki). Backend przetwarza dane i komunikuje się z API. Dane są pobierane z Eurostat w czasie rzeczywistym lub z lokalnego cache. Dashboard obsługuje filtry (np. rok), wyświetla dane na mapie oraz w tabeli z wyszukiwaniem i sortowaniem. Architektura zapewnia responsywność i możliwość skalowania.
+
+**Nawigacja po dashboardzie:**
+
+o	Menu boczne pozwala przełączać się między sekcjami: 'Population', 'Population by country', ‘Country’, oraz ‘Info’. 
+
+o	Zakładka ‘Population’ wyświetla interaktywną mapę i tabelę zawierającą dane o wielkości polulacji poszczegółnyk krajów oraz główne wskaźniki populacyjne dla UE. Występuje możliwość filtrowania wyników po zadanym roku. 
+
+o	Zakładka ‘Population by country’ wyświetla wykresy oraz wskaźniki dla jednego kraju w danym roku. Występuje możliwość filtrowania wyników po zadanym roku i kraju. 
+
+o	Zakładka ‘Country comparison’ wyświetla wykresy oraz wskaźniki dla dwóch wybranych krajów w danym roku. Występuje możliwość filtrowania wyników po zadanym roku oraz zniezależny wybór dwóch państw.
+
+o	Zakładka ‘Info’ wyświetla definicje wskaźników.
 
 **Wymagania systemowe:** System operacyjny (Windows/Linux/Mac).
 
