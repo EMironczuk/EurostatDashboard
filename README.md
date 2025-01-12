@@ -51,34 +51,50 @@ o	Zakładka ‘Info’ wyświetla definicje wskaźników.
 
 ## Testy
 **Scenariusze testów:**
-a)	Sprawdzenie funkcjonalności zakładki „Population”
+
+*a)	Sprawdzenie funkcjonalności zakładki „Population”*
+
 Opis: Użytkownik sprawdza, czy aplikacja wyświetla dane populacji, wskaźników, kod kraju oraz sprawdza funkcjonalność mapy.
+
 1.	Wybranie dowolnego roku w zakładce „Year”.
 2.	Sprawdzenie czy aplikacja pokazuje wartości dla wyświetlanych wskaźników.
 3.	Sprawdzenie czy aplikacja wyświetla kod kraju po najechaniu na niego kursorem myszy.
 4.	Sprawdzenie czy aplikacja wyświetla liczbę populacji dla wybranego kraju po użyciu lewego przycisku myszy.
 5.	Sprawdzenie czy wyszukiwarka nad listą krajów działa poprawnie.
 6.	Zaznaczenie dowolnej liczby krajów z listy w celu sprawdzenia czy granice zaznaczonych państw zostaną zaznaczone na czerwono.
+   
+
 Wynik: Aplikacja wyświetla wartości dla populacji i kody kraju oraz wartości wskaźników w danym roku. Wyszukiwarka działa poprawnie. Wybrane państwa z listy są podświetlone na czerwono na mapie.
-b)	Sprawdzenie funkcjonalności zakładki „Population by country”
+
+*b)	Sprawdzenie funkcjonalności zakładki „Population by country”*
+
 Opis: Użytkownik sprawdza, czy aplikacja wyświetla dane dla wybranego kraju w wybranym roku.
 1.	Wybranie dowolnego kraju w zakładce „Country” oraz roku w zakładce „Year”.
 2.	Sprawdzenie czy aplikacja wyświetla wykresy liniowe dla populacji oraz wartość środków przeznaczanych na wsparcie socjalne.
 3.	Sprawdzenie czy aplikacja wyświetla wykres piramidy wieku.
 4.	Sprawdzenie czy aplikacja wyświetla wartości wskaźników.
+
 Wynik: Aplikacja wyświetla wykresy oraz wartości wskaźników dla wybranego kraju w wybranym roku.
-c)	Sprawdzenie funkcjonalności zakładki „Country comparison”
+
+*c)	Sprawdzenie funkcjonalności zakładki „Country comparison”*
+
 Opis: Użytkownik sprawdza czy aplikacja wyświetla dane dla dwóch wybranych krajów Unii Europejskiej w wybranym roku.
+
 1.	Wybranie dwóch różnych krajów w zakładce „Country 1”, „Country 2” oraz roku w zakładce „Year”.
 2.	Sprawdzenie czy aplikacja wyświetla wykresy liniowe dla populacji oraz wartość środków przeznaczanych na wsparcie socjalne.
 3.	Sprawdzenie czy aplikacja wyświetla wykres piramidy wieku.
 4.	Sprawdzenie czy aplikacja wyświetla wartości wskaźników.
+
 Wynik: Aplikacja wyświetla wykresy oraz wartości wskaźników dla obu wybranych krajów w wybranym roku.
-d)	Sprawdzenie funkcjonalności zakładki „Info”
+
+*d)	Sprawdzenie funkcjonalności zakładki „Info”*
+
 Opis: Użytkownik sprawdza, czy aplikacja wyświetla definicje wybranych wskaźników.
 1.	Rozwinięcie panelu z nazwą wskaźnika.
 2.	Sprawdzenie czy definicja pasuje do wskaźnika.
-Wynik: Aplikacja wyświetla definicje.
+
+
+> Wynik: Aplikacja wyświetla definicje.
 
 **Sprawozdanie z wykonania scenariuszy testów**
 ![x2](https://github.com/user-attachments/assets/a6a71085-a3a1-4582-be9d-248b081f5765)
