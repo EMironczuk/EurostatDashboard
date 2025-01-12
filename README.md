@@ -21,7 +21,7 @@ o	Wyświetlanie wybranych wskaźników dla zadanych krajów w wybranych latach.
 
 ## Specyfikacja wymagań
 
-![x1](https://github.com/user-attachments/assets/85992eab-adaf-4d50-bdee-8d3c1d7f2ec4)
+![x1](https://github.com/user-attachments/assets/471019c1-329c-4815-a6f0-25621548b946)
 
 ## Architektura systemu/oprogramowania
 Dashboard opiera się na architekturze klient-serwer z trzema głównymi komponentami: frontendem (Shiny, Leaflet, DataTables), backendem (Shiny Server) i zewnętrznym API Eurostat. Frontend umożliwia interakcję użytkownika z danymi (mapa, tabela, wskaźniki). Backend przetwarza dane i komunikuje się z API. Dane są pobierane z Eurostat w czasie rzeczywistym lub z lokalnego cache. Dashboard obsługuje filtry (np. rok), wyświetla dane na mapie oraz w tabeli z wyszukiwaniem i sortowaniem. Architektura zapewnia responsywność i możliwość skalowania.
