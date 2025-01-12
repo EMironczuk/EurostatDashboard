@@ -26,15 +26,11 @@ Dashboard opiera się na architekturze klient-serwer z trzema głównymi kompone
 
 **Nawigacja po dashboardzie:**
 
-o	Menu boczne pozwala przełączać się między sekcjami: 'Population', 'Population by country', ‘Country’, oraz ‘Info’. 
-
-o	Zakładka ‘Population’ wyświetla interaktywną mapę i tabelę zawierającą dane o wielkości polulacji poszczegółnyk krajów oraz główne wskaźniki populacyjne dla UE. Występuje możliwość filtrowania wyników po zadanym roku. 
-
-o	Zakładka ‘Population by country’ wyświetla wykresy oraz wskaźniki dla jednego kraju w danym roku. Występuje możliwość filtrowania wyników po zadanym roku i kraju. 
-
-o	Zakładka ‘Country comparison’ wyświetla wykresy oraz wskaźniki dla dwóch wybranych krajów w danym roku. Występuje możliwość filtrowania wyników po zadanym roku oraz zniezależny wybór dwóch państw.
-
-o	Zakładka ‘Info’ wyświetla definicje wskaźników.
+* Menu boczne pozwala przełączać się między sekcjami: 'Population', 'Population by country', ‘Country’, oraz ‘Info’. 
+* Zakładka ‘Population’ wyświetla interaktywną mapę i tabelę zawierającą dane o wielkości polulacji poszczegółnyk krajów oraz główne wskaźniki populacyjne dla UE. Występuje możliwość filtrowania wyników po zadanym roku. 
+* Zakładka ‘Population by country’ wyświetla wykresy oraz wskaźniki dla jednego kraju w danym roku. Występuje możliwość filtrowania wyników po zadanym roku i kraju. 
+* Zakładka ‘Country comparison’ wyświetla wykresy oraz wskaźniki dla dwóch wybranych krajów w danym roku. Występuje możliwość filtrowania wyników po zadanym roku oraz zniezależny wybór dwóch państw.
+* Zakładka ‘Info’ wyświetla definicje wskaźników.
 
 **Wymagania systemowe:** System operacyjny (Windows/Linux/Mac).
 
@@ -60,7 +56,7 @@ Opis: Użytkownik sprawdza, czy aplikacja wyświetla dane populacji, wskaźnikó
 4.	Sprawdzenie czy aplikacja wyświetla liczbę populacji dla wybranego kraju po użyciu lewego przycisku myszy.
 5.	Sprawdzenie czy wyszukiwarka nad listą krajów działa poprawnie.
 6.	Zaznaczenie dowolnej liczby krajów z listy w celu sprawdzenia czy granice zaznaczonych państw zostaną zaznaczone na czerwono.
-   
+
 
 Wynik: Aplikacja wyświetla wartości dla populacji i kody kraju oraz wartości wskaźników w danym roku. Wyszukiwarka działa poprawnie. Wybrane państwa z listy są podświetlone na czerwono na mapie.
 
